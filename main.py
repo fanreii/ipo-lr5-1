@@ -1,8 +1,8 @@
 s = str(input("Введите строку (на русском языке): "))
 count = 0
 count2 = 0
-glasnie = set("ауоиэыяюеё")
-soglasnie = set("бвгджзйклмнпрмтфхцчшщ")
+glasnie = set("ауоиэыяюеёАУОИЭЯЮЕЁ")
+soglasnie = set("бвгджзйклмнпрмтфхцчшщБВГДЖЗКЛМНПРМТФХЦЧШЩ")
 for letter in s:
     if letter in glasnie:
         count += 1
